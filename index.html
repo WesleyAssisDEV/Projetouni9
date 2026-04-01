@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alerta Max - Segurança Inteligente</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="javascript.js"></script>
+  
+</head>
+<body>
+  <header>
+    <img src="img/logolar.png" alt="Logo Alerta Max">
+    
+  </header>
+
+  <nav>
+    <a href="#produtos">Produtos</a>
+    <a href="#beneficios">Benefícios</a>
+    <a href="#contato">Contato</a>
+    <a href="#cep">Buscar CEP</a>
+    <a href="#sobre">Sobre</a>
+  </nav>
+
+  <section id="produtos">
+    <h2>Nossos Produtos</h2>
+    <div class="produtos">
+      <div class="card"><img src="img/camera1.png" alt="Câmera"><h3>Câmera de Segurança</h3><p>Monitoramento em tempo real com alta definição.</p><a href="#" class="btn">Saiba Mais</a></div>
+      <div class="card"><img src="img/sensor1.png" alt="Sensor"><h3>Sensor de Movimento</h3><p>Detecta qualquer atividade suspeita com precisão.</p><a href="#" class="btn">Saiba Mais</a></div>
+      <div class="card"><img src="img/alarme1.png" alt="Alarme"><h3>Sistema de Alarme</h3><p>Proteção imediata contra invasões e emergências.</p><a href="#" class="btn">Saiba Mais</a></div>
+      <div class="card"><img src="img/fechadura1.png" alt="Fechadura"><h3>Fechadura Inteligente</h3><p>Controle de acesso moderno e seguro.</p><a href="#" class="btn">Saiba Mais</a></div>
+      <div class="card"><img src="img/iluminacao.png" alt="Iluminação"><h3>Iluminação de Segurança</h3><p>Luzes automáticas para áreas externas.</p><a href="#" class="btn">Saiba Mais</a></div>
+      <div class="card"><img src="img/pacote1.png" alt="Kit"><h3>Kit Completo</h3><p>Pacote com câmera, sensor, Fechadura e alarme.</p><a href="#" class="btn">Saiba Mais</a></div>
+    </div>
+  </section>
+
+  <section id="beneficios">
+    <h2>Por que escolher a Alerta Max?</h2>
+    <div class="beneficios">
+      <div class="beneficio"><h3>✔ Tecnologia Avançada</h3><p>Equipamentos modernos e confiáveis.</p></div>
+      <div class="beneficio"><h3>✔ Atendimento 24h</h3><p>Suporte técnico sempre disponível.</p></div>
+      <div class="beneficio"><h3>✔ Garantia Estendida</h3><p>Segurança e tranquilidade por mais tempo.</p></div>
+    </div>
+  </section>
+
+    <section id="sobre">
+      <h2>Sobre Nós</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aspernatur, nihil quibusdam quidem illum error nisi commodi molestiae dicta harum officia ad accusamus id quae ut. Delectus quo et necessitatibus? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia numquam quibusdam ipsam eveniet dolores. Nulla suscipit adipisci, libero neque, cumque veniam harum error vel unde, rem exercitationem nostrum tenetur veritatis? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum natus, iure, perferendis quo autem earum voluptatum vitae molestiae sed placeat, qui aliquid perspiciatis ea nihil. Numquam, repudiandae! Aperiam, sint repellendus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, quibusdam velit veritatis consectetur sint totam a beatae error eveniet, deleniti ut perspiciatis laudantium officia quos eligendi hic assumenda, voluptatem dolor. lre 
+      </p>
+    </section>
+
+  <section id="cep">
+    <h2>Pesquise seu CEP</h2>
+    <input type="text" id="cepInput" placeholder="Digite seu CEP">
+    <button onclick="buscarCEP()">Buscar</button>
+    <div id="cepResultado"></div>
+    <div id="riscoMensagem"></div>
+  </section>
+
+ <section id="contato">
+  <h2>Fale Conosco</h2>
+  <form id="contatoForm">
+    <input type="text" id="nome" placeholder="Seu nome" required>
+    <input type="email" id="email" placeholder="Seu e-mail" required>
+    <textarea id="mensagem" placeholder="Sua mensagem" required></textarea>
+    <button type="submit">Enviar</button>
+  </form>
+  <div id="resposta"></div>
+</section>
+
+
+  <footer>
+    <p>© 2026 Alerta Max - Todos os direitos reservados</p>
+  </footer>
+
+

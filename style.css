@@ -1,0 +1,147 @@
+ * { 
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0; }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: #e1e1e2;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(90deg, #003366, #004080);
+      color: #fff;
+      text-align: center;
+      padding: 30px 20px;
+      background-image: url(img/capa.png);
+    }
+    header img { 
+      max-width: 330px; 
+      
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      background: #002244;
+      padding: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      position: sticky;
+      top: 0;                /* Fixa no topo */
+      z-index: 1000;         /* Garante que fique acima do conteúdo */
+  width: 100%; 
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      padding: 3px 10px;
+      transition: color 0.3s;
+    }
+    nav a:hover { color: #ff6600; }
+
+    section { padding: 50px 20px; max-width: 1200px; margin: auto; }
+    h2 { text-align: center; color: #004080; margin-bottom: 30px; font-size: 1.6rem; }
+
+    .produtos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+    }
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      text-align: center;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform 0.2s ease;
+    }
+    .card:hover { transform: translateY(-5px); }
+    .card img { max-width: 80%; border-radius: 8px;}
+    .card h3 { margin: 15px 0 10px; color: #004080;}
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background: #ff6600;
+      color: #fff;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background 0.3s;
+    }
+    .btn:hover { background: #e65c00; }
+
+    .beneficios {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 20px;
+      text-align: center;
+      color: white;
+    }
+    .beneficio {
+      flex: 1;
+      min-width: 250px;
+      background: #e65c00;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    form input, form textarea, form button {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      font-size: 14px;
+    }
+    form textarea { min-height: 120px; }
+    form button {
+      background: #004080;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      font-weight: 600;
+    }
+    form button:hover { background: #003366; }
+
+    #sobre p {
+      text-align: justify;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    #cepInput {
+      padding: 10px;
+      width: 200px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    #cep button {
+      padding: 10px 15px;
+      margin-left: 10px;
+      background: #004080;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    #cep button:hover { background: #003366; }
+    #cepResultado, #riscoMensagem { margin-top: 15px; font-weight: 600; }
+
+    footer {
+      background: #002244;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
