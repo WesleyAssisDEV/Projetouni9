@@ -32,7 +32,7 @@
       position: sticky;
       top: 0;                /* Fixa no topo */
       z-index: 1000;         /* Garante que fique acima do conteúdo */
-  width: 100%; 
+      width: 100%; 
     }
     nav a {
       color: #fff;
@@ -137,6 +137,48 @@
     }
     #cep button:hover { background: #003366; }
     #cepResultado, #riscoMensagem { margin-top: 15px; font-weight: 600; }
+
+     #team {
+        text-align: center;
+        padding: 50px 20px;
+        background-color: #f9f9f9;
+        color: #003366;
+      }
+
+    .team-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .team-member {
+      background: #073dec2c;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    .team-member img {
+      width: 150px;       /* largura fixa */
+      height: 150px;      /* altura fixa */
+      object-fit: cover;  /* corta e ajusta proporcionalmente */
+      border-radius: 50%; /* deixa circular */
+      display: block;
+      margin: 0 auto;
+    }
+
+    .team-member h3 {
+      margin: 15px 0 5px;
+      font-size: 18px;
+    }
+
+    .team-member p {
+      color: #555;
+      font-size: 14px;
+    }
+
 
     footer {
       background: #002244;
