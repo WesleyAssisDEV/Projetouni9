@@ -164,7 +164,7 @@
       width: 150px;       /* largura fixa */
       height: 150px;      /* altura fixa */
       object-fit: cover;  /* corta e ajusta proporcionalmente */
-      border-radius: 50%; /* deixa circular */
+      border-radius: 50%; /* deixa circular  aa*/
       display: block;
       margin: 0 auto;
     }
