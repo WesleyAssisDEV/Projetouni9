@@ -118,6 +118,13 @@
       background: white;
       padding: 20px;
       border-radius: 10px;
+      color: rgb(0, 0, 0);
+    }
+    #sobre img {
+      max-width: 100%;
+      display: flex;
+      margin: 15px 0px 15px 0px;
+
     }
 
     #cepInput {
@@ -154,7 +161,7 @@
     }
 
     .team-member {
-      background: #073dec2c;
+      background: #247ba0;
       padding: 20px;
       border-radius: 8px;
       box-shadow: 0 4px 6px rgba(0,0,0,0.1);
@@ -175,7 +182,7 @@
     }
 
     .team-member p {
-      color: #555;
+      color: #ffffff;
       font-size: 14px;
     }
 
